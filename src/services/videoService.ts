@@ -5,7 +5,7 @@ video_url: string;
   error?: string;
 }
 
-const API_URL = "https://vigorously-lucky-pheasant.ngrok-free.app/generate_video/";
+const API_URL = "https://9a25-106-51-243-165.ngrok-free.app/generate_video/";
 
 export const generateVideo = async (prompt: string): Promise<AIResponse> => {
   try {
